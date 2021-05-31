@@ -1,1 +1,1 @@
-worker: npm Giboad.js
+worker: node Giboad.js
