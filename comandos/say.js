@@ -10,8 +10,7 @@ execute (client, message, args){
     
     let texto = args.join(' ')
     if(!texto) return message.channel.send("Escribe el texto que deseas enviar!")
-
-
+   
     message.channel.startTyping();
     message.delete();
 
@@ -19,9 +18,9 @@ execute (client, message, args){
         message.channel.send(texto)
         message.channel.stopTyping()
     }, 2500);
-
-    
-  } 
+   
+    } 
+  
  
 
 } 
